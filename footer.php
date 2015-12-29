@@ -46,19 +46,21 @@
 		<div class="copyright copyright-<?php echo $ft; ?>">
 			<div class="container">
 				<div class="row-fluid">
-					<div>
-						<?php if(is_active_sidebar('footer9')): ?> 
-							<?php dynamic_sidebar('footer9'); ?>	
-						<?php else: ?>
-							<?php if($fd) etheme_footer_demo('footer9'); ?>
-						<?php endif; ?>
-					</div>
+					
 
 					<div>
 						<?php if(is_active_sidebar('footer10')): ?> 
 							<?php dynamic_sidebar('footer10'); ?>	
 						<?php else: ?>
 							<?php if($fd) etheme_footer_demo('footer10'); ?>
+						<?php endif; ?>
+					</div>
+
+					<div>
+						<?php if(is_active_sidebar('footer9')): ?> 
+							<?php dynamic_sidebar('footer9'); ?>	
+						<?php else: ?>
+							<?php if($fd) etheme_footer_demo('footer9'); ?>
 						<?php endif; ?>
 					</div>
 				</div>
