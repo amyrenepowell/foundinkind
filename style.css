@@ -24,7 +24,11 @@
 	padding: 0;
 }
 
-/*-- FOOTER 1 ---*/
+/*-- FOOTER Top ---*/
+
+.footer-top {
+    background: #c2c2c2; 
+}
 
 .footer-top-1 div.footer-sidebar-widget {
     display: inline-block;
@@ -39,6 +43,12 @@
 
 .copyright {
     text-align: center;
+    background: #c2c2c2;
+    color: #000;
+}
+
+.copyright .container {
+	border: none;
 }
 
 .copyright .widget_nav_menu ul {
