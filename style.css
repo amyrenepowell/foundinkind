@@ -14,6 +14,15 @@
 
 /*-------- FOOTER EDITS ------*/
 
+/*-- All Menus --*/
+
+.widget_nav_menu li:before {
+	content: none;
+}
+
+.footer .widget_nav_menu ul li a, .footer-top .widget_nav_menu ul li a {
+	padding: 0;
+}
 
 /*-- FOOTER 1 ---*/
 
@@ -24,4 +33,37 @@
     padding: 0;
     vertical-align: top;
     text-transform: uppercase;
+}
+
+/*-- Copyright & Footer Links Block --*/
+
+.copyright {
+    text-align: center;
+}
+
+.copyright .widget_nav_menu ul {
+	border: none;
+}
+
+.copyright .widget_nav_menu li {
+    display: inline-block;
+}
+
+.copyright .widget_nav_menu li:first-child a {
+    border-top: none !important;
+}
+
+.copyright .widget_nav_menu li:before {
+    content: "|";
+    top: 0;
+}
+
+.copyright .widget_nav_menu li:first-child:before {
+    content: none;
+}
+
+.copyright .widget_nav_menu li a {
+    padding: 0px 0px 0px 100px;
+    display: inline-block;
+    border: none!important;
 }
