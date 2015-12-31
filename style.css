@@ -11,6 +11,23 @@
  Text Domain:  twenty-fifteen-child
 */
 
+/*-------- Header Edits --------- */
+
+.breadcrumbs {
+	display: none;
+}
+
+/*-------- General --------- */
+
+/*-- Buttons --*/
+
+
+.vc_btn3.vc_btn3-color-grey, .vc_btn3.vc_btn3-color-grey.vc_btn3-style-flat, button {
+    color: #666666;
+    background: none;
+    border: 1px solid #666;
+}
+
 
 /*-------- FOOTER EDITS ------*/
 
