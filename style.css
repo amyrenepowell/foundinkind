@@ -19,6 +19,52 @@
 
 /*-------- General --------- */
 
+a, a:link {
+	color: #000;
+}
+
+a:hover {
+	color: #4c4c4c;
+}
+
+.widget_nav_menu li a:hover,
+.widget_nav_menu .current-menu-item a,
+.product-categories > li.opened .open-this:hover,
+.product-categories .open-this:hover,
+.product-categories > li span:hover,
+.etheme_twitter .tweet a,
+.page-numbers .prev:hover:before,
+.pagination .prev:hover:before,
+.page-numbers .next:hover:before,
+.pagination .next:hover:before,
+.quick-view-popup .product-info .out-of-stock,
+.single-product-page .product-info .out-of-stock,
+.custom-info-block.a-right span,
+.custom-info-block.a-left span,
+.widget_nav_menu li:hover:before,
+.widget_nav_menu li a:hover,
+.widget_nav_menu .current-menu-item a,
+.product-categories > li.opened .open-this:hover,
+.product-categories .open-this:hover,
+.product-categories > li span:hover,
+.etheme_twitter .tweet a,
+.page-numbers .prev:hover:before,
+.pagination .prev:hover:before,
+.page-numbers .next:hover:before,
+.pagination .next:hover:before,
+.quick-view-popup .product-info .out-of-stock,
+.single-product-page .product-info .out-of-stock,
+.custom-info-block.a-right span,
+.custom-info-block.a-left span
+
+ {
+ 	border-color: transparent;
+ 	color: #4c4c4c;
+ }
+
+a:hover, .button:hover, button:hover, input[type=submit]:hover, .menu-icon:hover, .widget_layered_nav ul li:hover, .page-numbers li span, .pagination li span, .page-numbers li a:hover, .pagination li a:hover, .largest, .thumbnail:hover i, .demo-icons .demo-icon:hover, .demo-icons .demo-icon:hover i, .switchToGrid:hover,  .switchToList:hover,  .switcher-active,  .switcher-active:hover, .emodal .close-modal:hover, .prev.page-numbers:hover:after,  .next.page-numbers:hover:after, strong.active, span.active, em.active, a.active, p.active, .shopping-cart-widget .cart-summ .price-summ, .products-small .product-item h5 a:hover, .slider-container .slider-next:hover:before,  .slider-container .slider-prev:hover:before, .fullwidthbanner-container .tp-rightarrow.default:hover:before,  .fullwidthbanner-container .tp-leftarrow.default:hover:before, .side-area .close-block:hover i, .back-to-top:hover, .back-to-top:hover i, .product-info .single_add_to_wishlist:hover:before, .images .main-image-slider ul.slides .zoom-link i:hover, .footer_menu li:hover:before, .main-nav .menu > li.current-menu-parent > a, .main-nav .menu > li.current-menu-item > a, .page-numbers .next:hover:before,  .pagination .next:hover:before, .etheme_twitter .tweet a, .small-slider-arrow.arrow-left:hover, .small-slider-arrow.arrow-right:hover, .active2:hover, .active2, .checkout-steps-nav a.button.active, .checkout-steps-nav a.button.active:hover, .button.active, button.active, input[type=submit].active, .widget_categories .current-cat a, div.dark_rounded .pp_contract:hover, div.dark_rounded .pp_expand:hover, div.dark_rounded .pp_close:hover, .etheme_cp .etheme_cp_head .etheme_cp_btn_close:hover, .hover-icon:hover, .side-area-icon:hover, .etheme_cp .etheme_cp_content .etheme_cp_section .etheme_cp_section_header .etheme_cp_btn_clear:hover, .header-type-3 .main-nav .menu-wrapper .menu > li.current-menu-item > a,  .header-type-3 .main-nav .menu-wrapper .menu > li.current-menu-parent > a, .header-type-3 .main-nav .menu-wrapper .menu > li > a:hover, .fixed-header .menu > li.current-menu-item > a, .fixed-header .menu > li > a:hover, .main-nav .menu > li > a:hover, .product-categories > li > a:hover, .custom-info-block.a-right span,  .custom-info-block.a-left span, .custom-info-block a i:hover, .product-categories > li.current-cat > a, .menu-wrapper .menu .nav-sublist-dropdown .menu-parent-item > a:hover, .woocommerce .woocommerce-breadcrumb a:hover,  .woocommerce-page .woocommerce-breadcrumb a:hover, .product-info .posted_in a:hover, .slide-item .product .products-page-cats a:hover,  .products-grid .product .products-page-cats a:hover, .widget_layered_nav ul li:hover a, .page-heading .row-fluid .span12 > .back-to:hover, .breadcrumbs .back-to:hover, #breadcrumb a:hover, .links li a:hover,					.menu-wrapper .menu > .nav-sublist-dropdown .menu-parent-item ul li:hover, 					.menu-wrapper .menu > .nav-sublist-dropdown .menu-parent-item ul li:hover a,					.menu-wrapper .menu ul > li > a:hover, .filled.active, .shopping-cart-widget .cart-summ a:hover, .product-categories > li > ul > li > a:hover, .product-categories > li > ul > li > a:hover + span, .product-categories ul.children li > a:hover, .product-categories ul.children li > a:hover + span, .product-categories > li.current-cat > a+span, .widget_nav_menu .current-menu-item a, .widget_nav_menu .current-menu-item:before, .fixed-menu-type2 .fixed-header .nav-sublist-dropdown li a:hover, .product-category h5:hover, .product-categories .children li.current-cat, .product-categories .children li.current-cat a, .product-categories .children li.current-cat span, .pricing-table ul li.row-price, .product-category:hover h5, .widget_nav_menu li a:hover, .widget_nav_menu li:hover:before, .list li:before, .blog-post .post-info a:hover,					.show-all-posts:hover, .cbp-qtrotator .testimonial-author .excerpt, .top-bar .wishlist-link a:hover span, .menu-type2 .menu .nav-sublist-dropdown .menu-parent-item li:hover:before, .back-to-top:hover:before, .tabs .tab-title:hover, .flex-direction-nav a:hover, .widget_layered_nav ul li a:hover, .widget_layered_nav ul li:hover, .product-categories .open-this:hover, .widget_categories li:hover:before, .etheme-social-icons li a:hover, .product-categories > li.opened .open-this:hover, .slider-container .show-all-posts:hover, .widget_layered_nav ul li.chosen .count, .widget_layered_nav ul li.chosen a, .widget_layered_nav ul li.chosen a:before, .recent-post-mini strong, .menu-wrapper .menu ul > li:hover:before,  .fixed-header .menu ul > li:hover:before, .team-member .member-mask .mask-text a:hover, .show-quickly:hover, .header-type-6 .top-bar .top-links .submenu-dropdown ul li a:hover, .header-type-6 .top-bar .top-links .submenu-dropdown ul li:hover:before, .side-area-icon i:hover:before,  .menu-icon i:hover:before, a.bbp-author-name, #bbpress-forums #bbp-single-user-details #bbp-user-navigation li.current a, #bbpress-forums #bbp-single-user-details #bbp-user-navigation li.current:before,					.bbp-forum-header a.bbp-forum-permalink,					.bbp-topic-header a.bbp-topic-permalink,					.bbp-reply-header a.bbp-reply-permalink,					.et-tweets.owl-carousel .owl-prev:hover:before,					.et-tweets.owl-carousel .owl-next:hover:before,					.etheme_widget_brands ul li.active-brand a, .comment-block .author-link a:hover, .header-type-3 .shopping-cart-link span.amount,  .header-type-4 .shopping-cart-link span.amount,  .header-type-6 .shopping-cart-link span.amount              
+{ color: #4c4c4c!important; }
+
 /*-- Buttons --*/
 
 
@@ -28,6 +74,105 @@
     border: 1px solid #666;
 }
 
+
+/* --- Widget Nav Menu --- */
+
+.sidebar .widget_nav_menu .widget-title {
+	border-left: none;
+	border-right: none;
+	text-align: left;
+	font-family: Raleway;
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: normal;
+    text-transform: none;	
+}
+
+.sidebar .widget_nav_menu ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.sidebar .widget_nav_menu li {
+    list-style: none;
+}
+
+.sidebar .widget_nav_menu li a {
+    padding: 5px 0 5px 5px;
+    border: none!important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #6f6f6f;
+    font-size: 12px;
+    font-family: Raleway;
+    font-weight: lighter;
+}
+
+.sidebar .widget_nav_menu ul li a:before {
+    font-family: "FontAwesome";
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    content: "\f105";
+    -webkit-font-smoothing: antialiased;
+    float: left;
+    line-height: 20px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+
+/*--- Product Widget ---*/
+
+.product_list_widget img {
+    max-width: 30%;
+}
+
+/*-------- HOME EDITS ------*/
+
+.home-feature-large .vc_gitem_row.vc_row.vc_gitem-row-position-middle {
+    background-color:rgba(92, 92, 92, 0.7);
+    left: 20%;
+    right: 20%;
+    color: #FFF;
+}
+
+.home-feature-small .vc_gitem_row.vc_row.vc_gitem-row-position-middle {
+    background-color:rgba(92, 92, 92, 0.7);
+    left: 15%;
+    right: 15%;
+    font-size: 13px;
+    color: #FFF;
+}
+
+.home-feature-large .vc_gitem_row.vc_row.vc_gitem-row-position-middle a, .home-feature-small .vc_gitem_row.vc_row.vc_gitem-row-position-middle a {
+	color: #FFF;
+}
+
+.vc_gitem_row.vc_row.vc_gitem-row-position-middle .vc_btn3.vc_btn3-color-grey.vc_btn3-style-flat {
+    border: 1px solid #fff;
+}
+
+
+.home-feature-small .vc_gitem_row.vc_row.vc_gitem-row-position-middle h2 {
+	font-size: 18px;
+	line-height: 18px;
+	color: #FFF;
+}
+
+.home-feature-small .vc_gitem_row.vc_row.vc_gitem-row-position-middle .vc_btn3.vc_btn3-size-md {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.vc_gitem-zone.vc_gitem-zone-a.vc-gitem-zone-height-mode-auto.vc-gitem-zone-height-mode-auto-16-9.vc_gitem-is-link:hover {
+	opacity: .9;
+}
 
 /*-------- FOOTER EDITS ------*/
 
@@ -40,6 +185,8 @@
 .footer .widget_nav_menu ul li a, .footer-top .widget_nav_menu ul li a {
 	padding: 0;
 }
+
+
 
 /*-- FOOTER Top ---*/
 
@@ -56,12 +203,19 @@
     text-transform: uppercase;
 }
 
+/*-- Blog Post Edits --*/
+
+.zoom {
+    display: none;
+}
+
 /*-- Copyright & Footer Links Block --*/
 
 .copyright {
     text-align: center;
     background: #c2c2c2;
     color: #000;
+    font-size: 12px;
 }
 
 .copyright .container {
@@ -83,6 +237,7 @@
 .copyright .widget_nav_menu li:before {
     content: "|";
     top: 0;
+    margin-left: -25px;
 }
 
 .copyright .widget_nav_menu li:first-child:before {
@@ -90,7 +245,18 @@
 }
 
 .copyright .widget_nav_menu li a {
-    padding: 0px 0px 0px 100px;
+    padding: 0px 0px 0px 25px;
     display: inline-block;
     border: none!important;
+    font-size: 12px;
+}
+
+/*------ About Page ------*/
+
+.organization-logos .wpb_single_image img {
+	max-height: 150px;
+}
+
+.about-paige {
+	font-size: 14px;
 }
