@@ -102,22 +102,23 @@
 				           	</div>
 					    
 						<?php elseif(has_post_thumbnail()): ?>
-							<div class="wp-picture">
-								<?php the_post_thumbnail('large'); ?>
-								<div class="zoom">
-									<div class="btn_group">
-										<a href="<?php echo etheme_get_image( get_the_ID() ); ?>" class="btn btn-black xmedium-btn" rel="pphoto"><i class="fa fa-search-plus"></i></span></a>
-									</div>
-									<i class="bg"></i>
-								</div>
-							</div>
+							<!-- featured image was here -->
 						<?php endif; ?>
 						
 
                         <?php if($post_format != 'quote'): ?>
                             <h3 class="post-title entry-title"><?php the_title(); ?></h3>
 
-                        	<?php et_byline(); ?>
+                        	<div class="post-info">
+				                <span class="posted-by"> <?php _e('By', ETHEME_DOMAIN);?><span class="vcard"> <span class="fn"><?php the_author_posts_link(); ?></span></span></span> 
+				                 / 
+				                <span class="posted-in"><?php the_category(',&nbsp;') ?></span> 
+				                 / 
+				                <span class="posted-on">
+				                    <span class="published"><?php the_time(get_option('date_format')); ?></span>
+				                </span> 
+				                
+				            </div>
                         	
                         <?php endif; ?>
 

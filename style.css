@@ -209,6 +209,10 @@ a:hover, .button:hover, button:hover, input[type=submit]:hover, .menu-icon:hover
     display: none;
 }
 
+span.published {
+    font-style: italic;
+}
+
 /*-- Copyright & Footer Links Block --*/
 
 .copyright {
