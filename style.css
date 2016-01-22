@@ -17,6 +17,10 @@
 	display: none;
 }
 
+.top-bar ul.cnss-social-icon {
+    opacity: .5;
+}
+
 /*-------- General --------- */
 
 a, a:link {
@@ -343,4 +347,29 @@ span.published {
 
 .about-paige {
 	font-size: 14px;
+}
+
+
+/*--- Shop Colors ---*/
+
+.button:hover, button:hover, .button.white.filled:hover, input[type=submit]:hover, .button.active, button.active, input[type=submit].active, .filled:hover, .widget_layered_nav ul li:hover, .page-numbers li span, .pagination li span, .page-numbers li a:hover, .pagination li a:hover, .switchToGrid:hover, .switchToList:hover, .toolbar .switchToGrid.switcher-active, .toolbar .switchToList.switcher-active, textarea:focus, input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=date]:focus, input[type=month]:focus, input[type=time]:focus, input[type=week]:focus, input[type=number]:focus, input[type=email]:focus, input[type=url]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=color]:focus, .uneditable-input:focus, .active2, .woocommerce.widget_price_filter .ui-slider .ui-slider-range, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range, .checkout-steps-nav a.button.active, .product-info .single_add_to_cart_button, .main-nav .menu > li.current-menu-parent > a:before, .main-nav .menu > li.current-menu-item > a:before, .cta-block.style-filled, .search #searchform input[type=text]:focus, .product-categories .open-this:hover, .product-categories > li.opened .open-this:hover, .woocommerce-checkout-payment .place-order .button {
+    border-color: #f8af98!important;
+}
+
+.filled:hover, .progress-bar > div, .active2:hover, .button.active:hover, button.active:hover, input[type=submit].active:hover, .checkout-steps-nav a.button.active:hover, .portfolio-filters .active, .product-info .single_add_to_cart_button, .product-info .single_add_to_wishlist:hover, .checkout-button.button, .checkout-button.button:hover, .header-type-6 .top-bar, .filled.active, .block-with-ico.ico-position-top i, .added-text, .etheme_cp_btn_show, .toolbar .switchToList:hover, .toolbar .switchToList.switcher-active, .toolbar .switchToGrid:hover, .toolbar .switchToGrid.switcher-active, .button.white.filled:hover, .button.active, .button.active2, .button.white:hover, .woocommerce-checkout-payment .place-order .button {
+    background-color: #f8af98!important;
+}
+
+.products-small .product-item .price, .product_list_widget .amount, .cart_totals .table .total .amount, .price {
+    color: #f8af98!important;
+}
+
+a.add_to_wishlist {
+    display: none;
+}
+
+.search .et-mega-search form .button {
+    background-color: #FFF!important;
+    height: 25px;
+    margin-top: 1px;
 }
